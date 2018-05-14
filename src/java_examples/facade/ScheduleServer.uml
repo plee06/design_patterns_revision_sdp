@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java_dp_notes.adapter.facade.ScheduleServer</OriginalElement>
+  <nodes>
+    <node x="170.29999999999998" y="514.0">java_dp_notes.adapter.facade.TestFacadeRunner</node>
+    <node x="0.0" y="344.0">java_dp_notes.adapter.facade.ScheduleServerFacade</node>
+    <node x="133.1" y="0.0">java_dp_notes.adapter.facade.ScheduleServer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java_dp_notes.adapter.facade.ScheduleServerFacade" target="java_dp_notes.adapter.facade.ScheduleServer">
+      <point x="79.25" y="-60.0" />
+      <point x="237.75" y="319.0" />
+      <point x="226.475" y="319.0" />
+      <point x="-31.125" y="147.0" />
+    </edge>
+    <edge source="java_dp_notes.adapter.facade.TestFacadeRunner" target="java_dp_notes.adapter.facade.ScheduleServerFacade">
+      <point x="-69.75" y="-26.0" />
+      <point x="193.54999999999998" y="489.0" />
+      <point x="79.25" y="489.0" />
+      <point x="-79.25" y="60.0" />
+    </edge>
+    <edge source="java_dp_notes.adapter.facade.TestFacadeRunner" target="java_dp_notes.adapter.facade.ScheduleServer">
+      <point x="69.75" y="-26.0" />
+      <point x="333.04999999999995" y="489.0" />
+      <point x="338.5" y="489.0" />
+      <point x="338.5" y="319.0" />
+      <point x="350.975" y="319.0" />
+      <point x="93.375" y="147.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8061433447098977" x="191.5" y="283.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

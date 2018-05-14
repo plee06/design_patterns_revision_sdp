@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bridge.BigWheel</OriginalElement>
+  <nodes>
+    <node x="0.0" y="191.0">bridge.Moroten</node>
+    <node x="112.5" y="355.0">bridge.Product</node>
+    <node x="475.0" y="355.0">bridge.BridgePatternRunner</node>
+    <node x="115.0" y="0.0">bridge.Car</node>
+    <node x="0.0" y="479.0">bridge.GearLocking</node>
+    <node x="230.0" y="191.0">bridge.BigWheel</node>
+    <node x="225.0" y="479.0">bridge.CentralLocking</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bridge.GearLocking" target="bridge.Product">
+      <point x="0.0" y="-48.5" />
+      <point x="102.5" y="454.0" />
+      <point x="163.75" y="454.0" />
+      <point x="-51.25" y="37.0" />
+    </edge>
+    <edge source="bridge.Moroten" target="bridge.Car">
+      <point x="0.0" y="-59.5" />
+      <point x="105.0" y="166.0" />
+      <point x="167.5" y="166.0" />
+      <point x="-52.5" y="70.5" />
+    </edge>
+    <edge source="bridge.CentralLocking" target="bridge.Product">
+      <point x="0.0" y="-48.5" />
+      <point x="327.5" y="454.0" />
+      <point x="266.25" y="454.0" />
+      <point x="51.25" y="37.0" />
+    </edge>
+    <edge source="bridge.BigWheel" target="bridge.Car">
+      <point x="0.0" y="-59.5" />
+      <point x="335.0" y="166.0" />
+      <point x="272.5" y="166.0" />
+      <point x="52.5" y="70.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7466442953020134" x="330.5" y="288.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

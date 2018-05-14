@@ -1,0 +1,7 @@
+The benefits here is that we can reuse the MachineMediator interface for all new Machine cycles (delicates, cottons etc.)
+and also we can use all the Colleagues over and over for each one because those do not change.
+
+
+Imagine having to go through and implement all these things for EACH Machine class. For example, making Button work
+separately for CottonMachine or Valve working separately etc. and then working again separate for WhitesMachine etc.
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java_dp_notes.adapter.PayDNewVendor</OriginalElement>
+  <nodes>
+    <node x="647.0" y="0.0">java_dp_notes.adapter.RunAdapterExample</node>
+    <node x="306.0" y="300.0">java_dp_notes.adapter.XpayToPayDAdapter</node>
+    <node x="0.0" y="344.0">java_dp_notes.adapter.XpayImpl</node>
+    <node x="0.0" y="0.0">java_dp_notes.adapter.XpayInterface</node>
+    <node x="311.0" y="0.0">java_dp_notes.adapter.PayDNewVendor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java_dp_notes.adapter.XpayImpl" target="java_dp_notes.adapter.XpayInterface">
+      <point x="0.0" y="-213.5" />
+      <point x="0.0" y="147.0" />
+    </edge>
+    <edge source="java_dp_notes.adapter.XpayToPayDAdapter" target="java_dp_notes.adapter.PayDNewVendor">
+      <point x="0.0" y="-214.0" />
+      <point x="0.0" y="125.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6713021491782554" x="452.5" y="385.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

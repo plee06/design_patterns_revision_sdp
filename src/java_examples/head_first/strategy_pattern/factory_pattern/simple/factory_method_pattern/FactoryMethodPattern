@@ -1,0 +1,32 @@
+OK.
+
+So now we're working with the Factory Method Pattern instead of the Simple Factory Pattern.
+
+--> The question arises then... what's the difference?
+
+Well, the difference is that with the Simple Factory Pattern it is defined by delegating the creation of an object
+to another object. Namely, our Factory Object which then returns a specific "Pizza" in the case of these examples.
+
+--> And the Factory Method Pattern?
+
+The Factory Method Pattern is different in that instead of delegating the creation of the Object to a "Factory" object
+we instead delegate the instantiation of the objects to our subclasses that our known as "concrete" creator classes!
+
+--> Oh that is awesome dude! Okay, let's go and implement it.
+
+Ok. Great but there are some important things to note though.
+
+For one, the Pizza class is no longer a concrete class but is now an abstract class with an abstract Factory method. The
+orderPizza() method will be implemented in our abstract Pizza class but the createPizza() method will no longer
+exist in it's own factory object but now exist within our abstract Pizza class as an abstract method.
+
+All subclasses, i.e. the "concrete creator" classes will implement that abstract createPizza() method in it's own flavor.
+That way, instead of having a bunch of "small dedicated factories" we have "small dedicated creator subclasses" which
+handle object instantiation.
+
+These concrete creator classes use the Product classes which in our case is the Pizza and it's subclasses. Pizza
+again instead of being concrete, this time around will be an abstract class which implements all the methods.
+
+--> Awesome, thanks for that information. Now how about we implement it and walk through it?
+
+Yup, yup!

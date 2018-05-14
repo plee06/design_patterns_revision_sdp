@@ -1,0 +1,13 @@
+
+
+
+What is ADT?
+
+ADT is a theory in FP within Type theory that basically just refers to composite types.
+Some type that is composed of other subtypes.
+
+
+Two types of patterns: The Product and The Sum
+
+The Product Type Pattern
+"A has a B and a C" i.e. A has two types
