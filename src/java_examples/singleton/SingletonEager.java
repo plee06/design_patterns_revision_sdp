@@ -1,4 +1,4 @@
-package singleton;
+package java_examples.singleton;
 
 /*
 * Here we take advantage of the keyword 'static' in Java. As we know, when we declare a variable as static

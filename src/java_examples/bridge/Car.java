@@ -1,8 +1,8 @@
-package bridge;
+package java_examples.bridge;
 
 /*
 * This is our abstraction of the Car class, this holds a reference to the product interface and
-* carType.
+* carType. this is our bridge!!!
 *
 *
 * */

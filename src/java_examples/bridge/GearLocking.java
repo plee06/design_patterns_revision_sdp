@@ -1,4 +1,4 @@
-package bridge;
+package java_examples.bridge;
 
 /**
  * Our other concrete locking system class which implements Product.

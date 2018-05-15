@@ -1,4 +1,4 @@
-package factory;
+package java_examples.factory.java_v;
 
 /**
  * Runner of our Factory method pattern ...

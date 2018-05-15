@@ -1,4 +1,4 @@
-package bridge;
+package java_examples.bridge;
 
 /**
  * This is our concrete implementer which are used to then implement the concrete product implementations

@@ -1,4 +1,4 @@
-package prototype;
+package java_examples.prototype;
 
 /**
  * Our interface of Prototype which extends the Cloneable class so we can use the "clone()" method in Java

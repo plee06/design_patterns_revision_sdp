@@ -8,7 +8,8 @@ package java_examples.builder;
 public class BuilderPatternRunner {
     public static void main(String[] args) {
         // First we build our CarBuilders
-        // Remember that the Builder handles all the logic for the building up of a car 
+        // Remember that the Builder handles all the logic for the building up of a car
+        // Right now our client wants a Sedan type of constructor
         CarBuilder carBuilder = new SedanCarBuilder();
 
         // then we create our director and pass in the appropriate builder and the director
@@ -16,6 +17,8 @@ public class BuilderPatternRunner {
         CarDirector director = new CarDirector(carBuilder);
         director.build();
 
+        // get the sedan car and assign it to a higher abstraction i.e.
+        // Car so it can easily be swapped out later if needed
         Car car = carBuilder.getCar();
         System.out.println(car);
 
@@ -73,7 +76,7 @@ public class BuilderPatternRunner {
          *
          * then the same thing is done for the SportsCar object!
          *
-         * This approach is flexible in the fact that now we can a bunch of other Builder objects without changing
+         * This approach is flexible in the fact that now we can add a bunch of other Builder objects without changing
          * any existing code i.e. think of the Car class and adding new constructors with new methods ... BOOM!
          *
          * Come to review later

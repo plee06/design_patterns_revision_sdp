@@ -1,9 +1,15 @@
-package prototype;
+package java_examples.prototype;
 
 /**
  * This is the  class that all our users have instantiated, our User objects!
  *
  * Each User object has their own AccessControl object
+ *
+ * AccessControl object == the prototypes
+ *
+ * User = regular objects that are composed of the static Prototypes.
+ *
+ * Many users ok, we want little access control objects
  *
  *
  * */

@@ -1,4 +1,4 @@
-package bridge;
+package java_examples.bridge;
 
 public class BigWheel extends Car {
 

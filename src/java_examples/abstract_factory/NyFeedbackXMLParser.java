@@ -1,7 +1,5 @@
 package abstract_factory;
 
-import factory.XMLParser;
-
 public class NyFeedbackXMLParser implements XMLParser {
     @Override
     public String parse() {

@@ -1,9 +1,10 @@
-package prototype;
+package java_examples.prototype;
 
 /**
  * This is our actual AccessControl Object which implements Prototype, it's constructed by setting a specific
  * controlLevel and access level.
  *
+ * This is the Concrete Prototype
  *
  *
  * */

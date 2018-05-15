@@ -1,4 +1,4 @@
-package singleton;
+package java_examples.singleton;
 
 /*
 * This attempts to solve the problem represented in the SingletonEager class where the Singleton is

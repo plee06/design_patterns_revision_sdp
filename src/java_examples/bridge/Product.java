@@ -1,7 +1,9 @@
-package bridge;
+package java_examples.bridge;
 
 /*
 * Our Product Interface in the Bridge Pattern, all concrete implementations will subclass this Interface
+*
+* This is our Abstraction.
 *
 *
 * */

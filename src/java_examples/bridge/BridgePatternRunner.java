@@ -1,4 +1,4 @@
-package bridge;
+package java_examples.bridge;
 
 public class BridgePatternRunner {
 
@@ -31,9 +31,11 @@ public class BridgePatternRunner {
      *
      * */
     public static void main(String[] args) {
+        // the two types of products that we offer
         Product clProduct = new CentralLocking("Central Locking System");
         Product glProduct = new GearLocking("Gear Locking System");
 
+        // a client comes to us called BigWheel and they want a CentralLocking product
         Car car = new BigWheel(clProduct, "BigWheel xz Model");
         car.produceProduct();
         car.assemble();

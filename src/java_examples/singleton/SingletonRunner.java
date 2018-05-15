@@ -1,4 +1,4 @@
-package singleton;
+package java_examples.singleton;
 
 public class SingletonRunner {
 

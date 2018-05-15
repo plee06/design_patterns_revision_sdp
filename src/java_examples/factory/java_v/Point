@@ -1,0 +1,12 @@
+The Point here is that we have an XMLParser.
+
+We have various types of XMLParser that we need to instantiate based on the specific type that is wanted by a client.
+
+In order to do this efficiently we can use the Factory method.
+
+So instead of instantiating with the new keyword by the client for every possible different type of XMLParser
+in which case the client would have to know about all the subclasses.
+
+We can just offer up a Factory method to our client to then use it by passing in the type of XMLParser that they want
+and correspondingly return the appropriate XMLParser.
+

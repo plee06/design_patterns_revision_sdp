@@ -1,7 +1,9 @@
-package bridge;
+package java_examples.bridge;
 
+// moroten is a client that wants a locking system
 public class Moroten extends Car {
 
+    // composed of the type of product and cartype that it is
     private final Product product;
     private final String carType;
 

@@ -1,5 +1,10 @@
-package factory;
+package java_examples.factory.java_v;
 
+/**
+ * Implementation of a Concrete Product
+ *
+ *
+ * */
 public class ResponseXMLParser implements XMLParser {
     @Override
     public String parse() {

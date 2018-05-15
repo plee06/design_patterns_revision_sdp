@@ -1,4 +1,4 @@
-package factory;
+package java_examples.factory.java_v;
 
 /**
  * another display service subclass

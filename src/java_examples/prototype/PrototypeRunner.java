@@ -1,4 +1,4 @@
-package prototype;
+package java_examples.prototype;
 
 /**
  *
@@ -12,10 +12,12 @@ public class PrototypeRunner {
     public static void main(String[] args) throws CloneNotSupportedException {
 
         // first we create a general access control object
+        // once access contrl object for everybody. remember how we declared them static ...
         AccessControl userAccessControl = AccessControlProvider.getAccessControlObject("USER");
 
         // cloned here the object was created above
-        User user = new User("USER A", "USER Level", userAccessControl);
+        // "Hey I'm a new User and this is my name, my user level and the type of access control I should have"
+        User user = new User("UASER ", "USER Level", userAccessControl);
         System.out.println("*******************");
         System.out.println(user);
 
